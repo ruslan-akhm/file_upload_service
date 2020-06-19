@@ -1,0 +1,19 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>File Upload uService</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div id="form-parent">
+      <form action="/upload" method="POST" enctype="multipart/form-data">
+        UPLOAD FILE:
+        <input name="upfile" type="file" id="file"/>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
